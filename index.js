@@ -7,7 +7,7 @@ app.use(express.json());
 dotenv.config();
 const PORT = process.env.PORT ;
 const MONGO_URI = process.env.MONGO_URI ;
-import CustomerCreateAccount from '../backend/models/Customercreateaccount.js';
+import CustomerCreateAccount from './models/Customercreateaccount.js'
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
